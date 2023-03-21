@@ -19,10 +19,12 @@
             <td>No</td>
             <td>Nama</td>
         </tr>
+        <?php $i=0; foreach($namasiswa as $siswa) : ?>  
         <tr>
-        <td>1</td>
-        <td>elia</td>
+            <td><?php echo ++ $i ?></td>
+            <td><?php echo  $siswa ?></td>
         </tr>
+        <?php endforeach ?>
     </table>
 </body>
 </html>
